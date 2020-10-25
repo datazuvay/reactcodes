@@ -24,7 +24,7 @@ const Router = () => {
                 <Stack.Screen
                     name="Details"
                     component={RestaurantDetail}
-                    options={{ headerShown: false }}
+                    options={{ headerShown: true }}
                 />
             </Stack.Navigator>
         </NavigationContainer>
